@@ -1,0 +1,5 @@
+import string 
+def find_missing_letter(chars):
+    for letter in string.ascii_lowercase:
+        if letter not in chars:
+            return letter[0]
